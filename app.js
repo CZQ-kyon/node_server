@@ -499,7 +499,7 @@ app.post('/updatedata_studentstudytime', (req, res) => {
 
 //配置服务端口 
 var server = app.listen(3000, function () {
-    const hostname = 'localhost';
+    const hostname = '116.62.171.43';
     const port = 3000;
     console.log(`Server running at http://${hostname}:${port}/`);
 })
